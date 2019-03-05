@@ -1,0 +1,32 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    color: $black;
+}
+
+.container{
+    @include min-max(320px, 100%, 0);
+}
+
+.content{
+    @include min-max(320px, 1000px, 15px);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 100px 0;
+}
+
+p{
+    color: $black;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+}
